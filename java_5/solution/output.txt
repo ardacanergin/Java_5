@@ -1,0 +1,72 @@
+********************
+Deparment [departmentId=1, departmentName=Accounting]
+	Manager [id:123, Mehmet Ari 
+		# of Employees:3]
+		1.Developer
+			Person Info [id=111, firstName= Ayse, lastName= Caliskan, gender= 1
+			Employee Info [salary= 35000.0, hireDate= 2017/10/10]
+			RegularEmployee Info [performanceScore=25.0, bonus=0.0]
+			Project [projectName=CreditCard, startDate=2022/5/1, state=false]Project [projectName=Robotic, startDate=2021/5/1, state=true]
+		2.SalesEmployee
+			Person Info [id=167, firstName= Serkan, lastName= Yildiz, gender= 2
+			Employee Info [salary= 75000.0, hireDate= 2015/2/14]
+			RegularEmployee Info [performanceScore=50.0, bonus=0.0]
+			Product[productName=Product5, transactionDate=2023/1/11, price=90000.0] Product[productName=Product1, transactionDate=2023/1/1, price=10000.0] 
+		3.RegularEmployee
+			Person Info [id=156, firstName= Bulut, lastName= Karadag, gender= 2
+			Employee Info [salary= 45000.0, hireDate= 2018/11/15]
+			RegularEmployee Info [performanceScore=75.0, bonus=150000.0]
+********************
+Deparment [departmentId=2, departmentName=Marketing]
+	Manager [id:256, Arzu Ozturk 
+		# of Employees:2]
+		1.Developer
+			Person Info [id=247, firstName= Fatma, lastName= Esin, gender= 1
+			Employee Info [salary= 50000.0, hireDate= 2016/11/4]
+			RegularEmployee Info [performanceScore=80.0, bonus=0.0]
+			Project [projectName=LLM, startDate=2023/7/1, state=true]Project [projectName=SpeechRecognition, startDate=2023/9/1, state=true]Project [projectName=ATM, startDate=2024/0/1, state=true]
+		2.SalesEmployee
+			Person Info [id=213, firstName= Mustafa, lastName= Emir, gender= 2
+			Employee Info [salary= 100000.0, hireDate= 2014/5/24]
+			RegularEmployee Info [performanceScore=100.0, bonus=0.0]
+			Product[productName=Product1, transactionDate=2023/1/1, price=10000.0] Product[productName=Product2, transactionDate=2023/2/1, price=1500.0] Product[productName=Product3, transactionDate=2023/11/1, price=15000.0] 
+**********CUSTOMERS********
+Customer[id: 224 products=[Product [productName=Product1, transactionDate=2023/1/1, price=10000.0]Product [productName=Product2, transactionDate=2023/2/1, price=1500.0]Product [productName=Product5, transactionDate=2023/1/11, price=90000.0]]]
+Customer[id: 267 products=[Product [productName=Product3, transactionDate=2023/11/1, price=15000.0]]]
+Customer[id: 178 products=[Product [productName=Product2, transactionDate=2023/2/1, price=1500.0]Product [productName=Product3, transactionDate=2023/11/1, price=15000.0]]]
+********************
+Deparment [departmentId=1, departmentName=Accounting]
+	Manager [id:123, Mehmet Ari 
+		# of Employees:3]
+		1.Developer
+			Person Info [id=111, firstName= Ayse, lastName= Caliskan, gender= Woman]
+			Employee Info [salary= 35000.0, hireDate= 10/10/2017]
+			RegularEmployee Info [performanceScore=25.0, bonus=0.0]
+			Project [projectName=CreditCard, startDate=1/5/2022, state=false]Project [projectName=Robotic, startDate=1/5/2021, state=true]
+		2.SalesEmployee
+			Person Info [id=167, firstName= Serkan, lastName= Yildiz, gender= Man]
+			Employee Info [salary= 75000.0, hireDate= 14/2/2015]
+			RegularEmployee Info [performanceScore=50.0, bonus=0.0]
+			Product[productName=Product5, transactionDate=11/1/2023, price=90000.0] Product[productName=Product1, transactionDate=1/1/2023, price=10000.0] 
+		3.RegularEmployee
+			Person Info [id=156, firstName= Bulut, lastName= Karadag, gender= Man]
+			Employee Info [salary= 45000.0, hireDate= 15/11/2018]
+			RegularEmployee Info [performanceScore=75.0, bonus=150000.0]
+********************
+Deparment [departmentId=2, departmentName=Marketing]
+	Manager [id:256, Arzu Ozturk 
+		# of Employees:2]
+		1.Developer
+			Person Info [id=247, firstName= Fatma, lastName= Esin, gender= Woman]
+			Employee Info [salary= 50000.0, hireDate= 4/11/2016]
+			RegularEmployee Info [performanceScore=80.0, bonus=0.0]
+			Project [projectName=LLM, startDate=1/7/2023, state=true]Project [projectName=SpeechRecognition, startDate=1/9/2023, state=true]Project [projectName=ATM, startDate=1/0/2024, state=true]
+		2.SalesEmployee
+			Person Info [id=213, firstName= Mustafa, lastName= Emir, gender= Man]
+			Employee Info [salary= 100000.0, hireDate= 24/5/2014]
+			RegularEmployee Info [performanceScore=100.0, bonus=0.0]
+			Product[productName=Product1, transactionDate=1/1/2023, price=10000.0] Product[productName=Product2, transactionDate=1/2/2023, price=1500.0] Product[productName=Product3, transactionDate=1/11/2023, price=15000.0] 
+**********CUSTOMERS********
+Customer[id: 224 products=[Product [productName=Product1, transactionDate=1/1/2023, price=10000.0]Product [productName=Product2, transactionDate=1/2/2023, price=1500.0]Product [productName=Product5, transactionDate=11/1/2023, price=90000.0]]]
+Customer[id: 267 products=[Product [productName=Product3, transactionDate=1/11/2023, price=15000.0]]]
+Customer[id: 178 products=[Product [productName=Product2, transactionDate=1/2/2023, price=1500.0]Product [productName=Product3, transactionDate=1/11/2023, price=15000.0]]]
